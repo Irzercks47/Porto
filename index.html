@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Muhammad Irza Athanafi Diarifin — Web Developer Portfolio. Experienced in JavaScript, Python, PHP, and modern web technologies.">
+    <meta name="keywords" content="Muhammad Irza, Web Developer, Portfolio, Frontend Developer, JavaScript, Python">
+    <meta name="author" content="Muhammad Irza Athanafi Diarifin">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Devicon -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link rel="stylesheet" href="index.css">
+    <title>Muhammad Irza A D — Portfolio</title>
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo">Irza<span>.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact" class="nav-cta">Contact</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO & ABOUT ===== -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-name">Muhammad Irza<br><span>Athanafi Diarifin</span></h1>
+                    <p class="hero-role">
+                        <span id="typingText"></span><span class="typing-cursor"></span>
+                    </p>
+                    <div class="hero-bio">
+                        <p>
+                            Fresh graduate in Computer Science from BINUS University with hands-on experience in
+                            developing responsive and user-friendly websites. Skilled in both Front-end and Back-end
+                            development, with practical experience in building a full stack web application for managing
+                            and monitoring hardware systems.
+                        </p>
+                        <p>
+                            Capable of implementing secure, scalable back end features including real-time operations
+                            using websockets. A proactive and highly adaptable individual, passionate about learning and
+                            continuously improving technical skills through real-world projects and collaborative
+                            problem solving.
+                        </p>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fa-solid fa-paper-plane"></i> Contact Me
+                        </a>
+                        <a href="#projects" class="btn btn-outline">
+                            <i class="fa-solid fa-briefcase"></i> View Projects
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="12">0</span>
+                            <span class="stat-label">Skills</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="9">0</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-wrapper">
+                        <img src="asset/profile_irza.jpeg" alt="Muhammad Irza Athanafi Diarifin" width="320"
+                            height="380">
+                    </div>
+                    <div class="hero-badge">
+                        <span class="status-dot"></span> Open to Work
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Experience</span>
+                <h2 class="section-title">Work <span>Experience</span></h2>
+            </div>
+            <div class="experience-timeline">
+
+                <!-- PT Pertamina Patra Niaga -->
+                <div class="exp-item reveal">
+                    <div class="exp-dot"></div>
+                    <span class="exp-date">December 2025 – Present</span>
+                    <div class="exp-card">
+                        <h4>Web Developer Intern</h4>
+                        <p class="exp-company">PT. Pertamina Patra Niaga (Jakarta Selatan)</p>
+                        <ul>
+                            <li>Developed and implemented front-end features for the SPPBE web application to support
+                                business operations.</li>
+                            <li>Collaborated with internal teams to translate functional requirements into front-end
+                                solutions.</li>
+                            <li>Created a comprehensive User Manual for the SIM3LON web application to assist end users
+                                in understanding system features and workflows.</li>
+                            <li>Documented step-by-step system usage, key functionalities, and operational processes in
+                                a clear and structured format.</li>
+                            <li>Served as the Helpdesk for internal web applications, resolving user issues to maintain
+                                smooth daily workflows.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- BINUS SoCS -->
+                <div class="exp-item reveal reveal-delay-1">
+                    <div class="exp-dot"></div>
+                    <span class="exp-date">September 2022 – February 2023</span>
+                    <div class="exp-card">
+                        <h4>Programmer Intern</h4>
+                        <p class="exp-company">BINUS SoCS (Kota Malang)</p>
+                        <ul>
+                            <li>Designed and developed a full-stack web application for managing and monitoring multiple
+                                hardwares.</li>
+                            <li>Built a responsive and user-friendly interface using Bootstrap, ensuring cross-browser
+                                compatibility.</li>
+                            <li>Implemented secure, scalable back-end features using Laravel, including real-time
+                                hardwares operation monitoring using websocket.</li>
+                            <li>Collaborated with stakeholders to define system requirements and deliver a solution
+                                tailored to operational needs.</li>
+                            <li>Improved system efficiency by optimizing database queries and implementing role-based
+                                access control.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">My Skills</span>
+                <h2 class="section-title">Technical <span>Expertise</span></h2>
+            </div>
+            <div class="bento-grid">
+
+                <!-- Top: Programming Languages (Full Width) -->
+                <div class="bento-card bento-full reveal">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3 class="skill-category-title">Programming Languages</h3>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="skill-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="devicon-html5-plain colored"></i> HTML</span>
+                        <span class="skill-tag"><i class="devicon-css3-plain colored"></i> CSS</span>
+                        <span class="skill-tag"><i class="devicon-php-plain colored"></i> PHP</span>
+                        <span class="skill-tag"><i class="devicon-python-plain colored"></i> Python</span>
+                    </div>
+                </div>
+
+                <!-- Bottom Left: Frameworks & Tools -->
+                <div class="bento-card reveal reveal-delay-1">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fa-solid fa-wrench"></i></div>
+                        <h3 class="skill-category-title">Frameworks & Tools</h3>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="skill-tag"><i class="devicon-laravel-original colored"></i> Laravel</span>
+                        <span class="skill-tag"><i class="devicon-react-original colored"></i> React</span>
+                        <span class="skill-tag"><i class="devicon-express-original"></i> Express.js</span>
+                        <span class="skill-tag"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</span>
+                        <span class="skill-tag"><i class="devicon-tailwindcss-plain colored"></i> Tailwind CSS</span>
+                        <span class="skill-tag"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+                        <span class="skill-tag"><i class="devicon-git-plain colored"></i> Git & GitHub</span>
+                    </div>
+                </div>
+
+                <!-- Bottom Right: Soft Skills & Languages -->
+                <div class="bento-card reveal reveal-delay-2">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fa-solid fa-user-gear"></i></div>
+                        <h3 class="skill-category-title">Soft Skills & Languages</h3>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="skill-tag"><i class="fa-solid fa-lightbulb"></i> Problem-Solving</span>
+                        <span class="skill-tag"><i class="fa-solid fa-users"></i> Team Collaboration</span>
+                        <span class="skill-tag"><i class="fa-solid fa-sliders"></i> Adaptability</span>
+                        <span class="skill-tag"><i class="fa-solid fa-comment-dots"></i> Indonesian (Native)</span>
+                        <span class="skill-tag"><i class="fa-solid fa-comment-dots"></i> English</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Portfolio</span>
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 1: BURHGER KING -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="asset/portofolio/Burhger King/home.PNG" alt="BURHGER KING">
+                    </div>
+                    <div class="project-body">
+                        <h4>BURHGER KING</h4>
+                        <p>
+                            A front-end website created as part of a web design course. Demonstrated proficiency in
+                            creating responsive and visually appealing designs.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: AUTECH -->
+                <div class="project-card reveal reveal-delay-1">
+                    <div class="project-image">
+                        <img src="asset/portofolio/AuTech/home.PNG" alt="AUTECH">
+                    </div>
+                    <div class="project-body">
+                        <h4>AUTECH</h4>
+                        <p>
+                            An E-Commerce website developed for a Secure Programming course. Implemented a secure and
+                            scalable backend with Laravel and a user-friendly interface using Bootstrap.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>MySQL</span>
+                            <span>Laravel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: ANISEASON -->
+                <div class="project-card reveal reveal-delay-2">
+                    <div class="project-image">
+                        <img src="asset/portofolio/AniSeason/AniSeason.PNG" alt="ANISEASON">
+                    </div>
+                    <div class="project-body">
+                        <h4>ANISEASON</h4>
+                        <p>
+                            A web application for browsing anime by seasons and years. Designed dynamic filtering
+                            functionality and an intuitive user interface.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: VIRTUAL RESTAURANT -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="asset/portofolio/VR/home.PNG" alt="VIRTUAL RESTAURANT">
+                    </div>
+                    <div class="project-body">
+                        <h4>VIRTUAL RESTAURANT</h4>
+                        <p>
+                            A website showcasing the best restaurants in several cities. Built a clean and responsive
+                            interface to display restaurant details attractively.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: SMARTGATE -->
+                <div class="project-card reveal reveal-delay-1">
+                    <div class="project-image">
+                        <img src="asset/portofolio/SmartGate/dashboard.PNG" alt="SMARTGATE">
+                    </div>
+                    <div class="project-body">
+                        <h4>SMARTGATE</h4>
+                        <p>
+                            An admin website for gate management. Integrated real-time admin management functionality
+                            and secured database operations.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>MySQL</span>
+                            <span>Laravel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: LMS -->
+                <div class="project-card reveal reveal-delay-2">
+                    <div class="project-image">
+                        <img src="asset/portofolio/LMS/home.PNG" alt="LMS">
+                    </div>
+                    <div class="project-body">
+                        <h4>LMS</h4>
+                        <p>
+                            A web application to assist schools in managing teaching and learning activities.
+                            Streamlined educational processes and built a scalable system for managing user data.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>MySQL</span>
+                            <span>Laravel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7: MOVIE APP -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="asset/portofolio/Movie App/1.png" alt="MOVIE APP">
+                    </div>
+                    <div class="project-body">
+                        <h4>MOVIE APP</h4>
+                        <p>
+                            A web application for viewing information about upcoming and past movies. Using React.js to
+                            create dynamic and interactive components for movie data visualization.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Tailwind CSS</span>
+                            <span>React.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8: ONEMIX -->
+                <div class="project-card reveal reveal-delay-1">
+                    <div class="project-image">
+                        <img src="asset/portofolio/onemix/home.PNG" alt="ONEMIX">
+                    </div>
+                    <div class="project-body">
+                        <h4>ONEMIX</h4>
+                        <p>
+                            An E-Commerce platform for selling various footwear products. Built a robust e-commerce
+                            solution with a user-friendly shopping experience.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>Supabase</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 9: Library API -->
+                <div class="project-card reveal reveal-delay-1">
+                    <div class="project-image">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                    </div>
+                    <div class="project-body">
+                        <h4>Library API</h4>
+                        <p>
+                            A RESTful API for managing library resources and lending systems.
+                        </p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>MySql</span>
+                            <span>Express.js</span>
+                            <span>JWT</span>
+                            <span>Postman</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Education</span>
+                <h2 class="section-title">Academic <span>Background</span></h2>
+            </div>
+            <div class="education-timeline">
+                <div class="edu-item reveal">
+                    <div class="edu-dot"></div>
+                    <span class="edu-date">2019 - 2024</span>
+                    <div class="edu-card">
+                        <h4>BINUS University</h4>
+                        <p>Sarjana Komputer, Informatika · GPA : 3.23</p>
+                    </div>
+                </div>
+                <div class="edu-item reveal reveal-delay-1">
+                    <div class="edu-dot"></div>
+                    <span class="edu-date">2015 - 2018</span>
+                    <div class="edu-card">
+                        <h4>SMA Negeri 3 Malang</h4>
+                        <p>Gelar Sarjana / MIPA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER / CONTACT ===== -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Contact</span>
+                <h2 class="section-title">Let's <span>Connect</span></h2>
+            </div>
+            <div class="footer-grid">
+                <div class="footer-brand reveal">
+                    <h3>Irza<span>.</span></h3>
+                    <p>
+                        Passionate web developer looking for full-time career opportunities.
+                        Ready to contribute and grow with your team.
+                        Feel free to reach out!
+                    </p>
+                    <div class="footer-socials">
+                        <a href="https://www.linkedin.com/in/irza-diarifin/" target="_blank" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Irzercks47" target="_blank" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column reveal reveal-delay-1">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column reveal reveal-delay-2">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>
+                            <a style="pointer-events: none">
+                                <i class="fa-solid fa-envelope"></i> irzadiarifin@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Irzercks47" target="_blank">
+                                <i class="fa-brands fa-github"></i> Irzercks47
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Muhammad Irza A D. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
